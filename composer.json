@@ -1,0 +1,29 @@
+{
+  "name": "ChaiYue/delayed",
+  "description": "延时队列",
+  "license": "MIT",
+  "keywords": [
+    "delayed",
+    "Timer"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Delayed\\": ""
+    },
+    "files": [
+      "delayed.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "chaiyue",
+      "email": "1014392714@qq.com"
+    }
+  ],
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  }
+}

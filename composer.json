@@ -8,10 +8,9 @@
   ],
   "autoload": {
     "psr-4": {
-      "Delayed\\": ""
+      "CyDelayed\\": ""
     },
     "files": [
-      "delayed.php"
     ]
   },
   "authors": [

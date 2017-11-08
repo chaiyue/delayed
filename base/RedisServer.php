@@ -1,5 +1,5 @@
 <?php
-namespace Delayed\Base;
+namespace CyDelayed\base;
 
 use Redis;
 

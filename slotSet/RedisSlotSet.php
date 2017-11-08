@@ -1,8 +1,14 @@
 <?php
-namespace Delayed\SlotSet;
+/**
+ * redis实现存储引擎
+ *
+ * @author CHAIYUE
+ * @version 2017-07-24
+ */
+namespace CyDelayed\SlotSet;
 
-use Delayed\Base\Calculator;
-use Delayed\Base\SlotSet;
+use CyDelayed\base\Calculator;
+use CyDelayed\base\SlotSet;
 use Redis;
 
 class RedisSlotSet implements SlotSet

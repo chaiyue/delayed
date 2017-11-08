@@ -1,5 +1,11 @@
 <?php
-namespace Delayed\Base;
+/**
+ * 算法模块
+ *
+ * @author CHAIYUE
+ * @version 2017-07-24
+ */
+namespace CyDelayed\base;
 class Calculator
 {
     //计算Slot,cycleNum

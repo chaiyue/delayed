@@ -1,9 +1,17 @@
 <?php
-use Delayed\Timer\SwooleTimer;
-use Delayed\SlotSet\PhpSlotSet;
-use Delayed\SlotSet\RedisSlotSet;
-use Delayed\Base\JobEvent;
-use Delayed\Base\RedisServer;
+/**
+ * 启动
+ *
+ * @author CHAIYUE
+ * @version 2017-10-26
+ */
+namespace CyDelayed\root;
+
+use CyDelayed\timer\SwooleTimer;
+use CyDelayed\slotSet\PhpSlotSet;
+use CyDelayed\slotSet\RedisSlotSet;
+use CyDelayed\base\JobEvent;
+use CyDelayed\base\RedisServer;
 
 class delayed
 {

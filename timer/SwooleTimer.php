@@ -1,10 +1,16 @@
 <?php
-namespace Delayed\Timer;
+/**
+ * 时间控制模块
+ *
+ * @author CHAIYUE
+ * @version 2017-07-24
+ */
+namespace CyDelayed\timer;
 
-use Delayed\Base\JobEvent;
+use CyDelayed\base\JobEvent;
 use swoole_server;
 use swoole_timer_tick;
-use Delayed\Base\SlotSet;
+use CyDelayed\base\SlotSet;
 
 class SwooleTimer
 {

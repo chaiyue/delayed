@@ -1,5 +1,11 @@
 <?php
-namespace Delayed\Base;
+/**
+ * 存储引擎
+ *
+ * @author CHAIYUE
+ * @version 2017-07-24
+ */
+namespace CyDelayed\base;
 interface SlotSet
 {
     //添加新任务

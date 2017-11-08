@@ -1,8 +1,8 @@
 <?php
-namespace Delayed\SlotSet;
+namespace CyDelayed\slotSet;
 
-use Delayed\Base\Calculator;
-use Delayed\Base\SlotSet;
+use CyDelayed\base\Calculator;
+use CyDelayed\base\SlotSet;
 
 class PhpSlotSet implements SlotSet
 {
